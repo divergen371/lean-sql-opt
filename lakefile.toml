@@ -1,0 +1,10 @@
+name = "lean-sql-opt"
+version = "0.1.0"
+defaultTargets = ["lean-sql-opt"]
+
+[[lean_lib]]
+name = "LeanSqlOpt"
+
+[[lean_exe]]
+name = "lean-sql-opt"
+root = "Main"
